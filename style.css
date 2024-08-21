@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    height: 100vh;
+   
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 2px black solid;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    margin-right: 10px;
+}
+.link{
+    margin: 2px;
+    text-decoration: none;
+}
+.logo{
+    height: 9vh;
+    width: 30%;
+    margin-left: 5px;
+}
+.main {
+    height: 90vh;   
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    background-color: #E7D7EB;
+}
+.detail {
+    margin:0 60px;
+}
+button {
+    height: 25px;
+    width: 50px;
+    background-color: aqua;
+    color: black;
+    
+    margin: 25px 60px 0px 60px;
+}
+.laptop {
+    margin-right: 20px;
+}
+.about {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#about {
+    background-color: #CCECBF;
+    height: 40vh;
+}
+h2 {
+   padding-top: 20px;
+    text-align: center;
+  
+}
+.aboutimage {
+    height: 30vh;
+    width: 40%;
+    margin-right: 10px;
+}
+.para {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+#discord {
+    background-color: aquamarine;
+    height: 40vh;
+}
+.discordimg {
+    height: 30vh;
+    width: 40%;
+    margin-left: 10px;
+}
+.discord {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.parad{
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.contact {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #9ABFC0;
+}
+.email {
+    width: 30%;
+    height: 20px;
+}
+.message {
+    width: 30%;
+    height: 20vh;
+}
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail {
+    margin-right: 200px;
+}
+.msg {
+    margin-right: 180px;
+}
+#btn {
+    background-color: aqua;
+    height: 25px;
+    width: 30%;
+    cursor: pointer;
+}
+.Footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+.Logo {
+    height: 9vh;
+    width: 40%;
+    padding-top: 10px;
+}
+.Link {
+    text-decoration: none;
+}
